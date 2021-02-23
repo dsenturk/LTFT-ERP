@@ -1,5 +1,9 @@
-
-# LTFT-ERP Tutorial
+---
+title: "LTFT-ERP Tutorial"
+output: 
+  html_document:
+    keep_md: true
+---
 
 ## Description
 
@@ -137,23 +141,23 @@ fit.Sim <- LTFT.ERP_mixedEffectsModel(Scores = Scores.Sim, # (LTFT.ERP_MixedEffe
 ```
 
 ```
-## initial  value 1481644.204093 
-## final  value 1481643.324392 
+## initial  value 1562657.963471 
+## final  value 1562657.499468 
 ## converged
-## initial  value 1460841.860606 
-## final  value 1460839.494424 
+## initial  value 1541918.896568 
+## final  value 1541917.554465 
 ## converged
-## initial  value 1443292.144891 
-## final  value 1443291.280077 
+## initial  value 1523536.881336 
+## final  value 1523535.936087 
 ## converged
-## initial  value 1425892.066022 
-## final  value 1425890.582199 
+## initial  value 1505433.376601 
+## final  value 1505431.195406 
 ## converged
-## initial  value 1409609.030837 
-## final  value 1409607.812645 
+## initial  value 1487469.733823 
+## final  value 1487467.027096 
 ## converged
-## initial  value 1399627.812363 
-## final  value 1399626.628826 
+## initial  value 1476739.377850 
+## final  value 1476731.727476 
 ## converged
 ```
 
@@ -385,10 +389,10 @@ kbl(ME.PE.Total, align = c("l", "c", "c", "c", "c", "c"),
   <tr>
    <td style="text-align:left;"> 80 </td>
    <td style="text-align:center;"> 0.4 </td>
-   <td style="text-align:center;"> 0.82 </td>
-   <td style="text-align:center;"> 0.893 </td>
-   <td style="text-align:center;"> 0.342 </td>
-   <td style="text-align:center;"> 0.538 </td>
+   <td style="text-align:center;"> 0.805 </td>
+   <td style="text-align:center;"> 0.874 </td>
+   <td style="text-align:center;"> 0.362 </td>
+   <td style="text-align:center;"> 0.522 </td>
   </tr>
 </tbody>
 </table>
@@ -437,19 +441,19 @@ kbl(ME.Group, align = "c", caption = "ME of MDPCA Scores") %>%
    <td style="text-align:center;"> ASD </td>
    <td style="text-align:center;"> 80 </td>
    <td style="text-align:center;"> 0.4 </td>
-   <td style="text-align:center;"> 0.347 </td>
-   <td style="text-align:center;"> 0.448 </td>
-   <td style="text-align:center;"> 0.344 </td>
-   <td style="text-align:center;"> 0.282 </td>
+   <td style="text-align:center;"> 0.581 </td>
+   <td style="text-align:center;"> 0.705 </td>
+   <td style="text-align:center;"> 0.390 </td>
+   <td style="text-align:center;"> 0.284 </td>
   </tr>
   <tr>
    <td style="text-align:center;"> TD </td>
    <td style="text-align:center;"> 80 </td>
    <td style="text-align:center;"> 0.4 </td>
-   <td style="text-align:center;"> 0.210 </td>
-   <td style="text-align:center;"> 0.206 </td>
-   <td style="text-align:center;"> 0.569 </td>
-   <td style="text-align:center;"> 0.859 </td>
+   <td style="text-align:center;"> 0.162 </td>
+   <td style="text-align:center;"> 0.209 </td>
+   <td style="text-align:center;"> 0.474 </td>
+   <td style="text-align:center;"> 0.698 </td>
   </tr>
 </tbody>
 </table>
@@ -483,19 +487,19 @@ kbl(PE.Group, align = "c", caption = "PE of MDPCA Scores") %>%
    <td style="text-align:center;"> ASD </td>
    <td style="text-align:center;"> 80 </td>
    <td style="text-align:center;"> 0.4 </td>
-   <td style="text-align:center;"> 0.534 </td>
-   <td style="text-align:center;"> 0.540 </td>
-   <td style="text-align:center;"> 0.619 </td>
-   <td style="text-align:center;"> 0.578 </td>
+   <td style="text-align:center;"> 0.602 </td>
+   <td style="text-align:center;"> 0.607 </td>
+   <td style="text-align:center;"> 0.511 </td>
+   <td style="text-align:center;"> 0.459 </td>
   </tr>
   <tr>
    <td style="text-align:center;"> TD </td>
    <td style="text-align:center;"> 80 </td>
    <td style="text-align:center;"> 0.4 </td>
-   <td style="text-align:center;"> 0.429 </td>
-   <td style="text-align:center;"> 0.449 </td>
-   <td style="text-align:center;"> 0.601 </td>
-   <td style="text-align:center;"> 0.591 </td>
+   <td style="text-align:center;"> 0.493 </td>
+   <td style="text-align:center;"> 0.511 </td>
+   <td style="text-align:center;"> 0.530 </td>
+   <td style="text-align:center;"> 0.499 </td>
   </tr>
 </tbody>
 </table>
