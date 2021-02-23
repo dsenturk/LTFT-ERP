@@ -1,9 +1,5 @@
----
-title: "LTFT-ERP Tutorial"
-output: 
-  html_document:
-    keep_md: true
----
+
+# LTFT-ERP Tutorial
 
 ## Description
 
