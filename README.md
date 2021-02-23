@@ -27,4 +27,4 @@ The included R programs require Microsoft R Open 4.0.2 (Microsoft Corporation, 2
 INSTALLATION
 ——————————————
 
-Load the R program files into the global environment and install required packages using commands in LTFT.ERP_tutorial.R
+Load the R program files into the global environment and install required packages using commands in LTFT.ERP_tutorial.Rmd
